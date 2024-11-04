@@ -1,0 +1,16 @@
+<h1 id="result">click the button</h1>
+<button onclick="change(event)">1</button>
+<button onclick="change(event)">2</button>
+<button onclick="change(event)">3</button>
+<button onclick="change(event)">4</button>
+<button onclick="change(event)">5</button>
+
+<script>
+var a = document.getElementById("result")
+
+
+function change(event)
+{
+  a.textContent = event.target.textContent
+}
+</script>
